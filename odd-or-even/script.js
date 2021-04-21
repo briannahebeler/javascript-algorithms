@@ -1,7 +1,14 @@
-var oddOrEven = function (num) {
+var ans = document.getElementById("ans");
+var btn = document.getElementById("btn");
+
+function oddOrEven() {
+    var num = document.getElementById("num").value;
+
     if (num % 2 === 0) {
-        return "even";
+        ans.textContent = "even";
     } else {
-        return "odd";
+        ans.textContent = "odd";
     }
 };
+
+btn.addEventListener("click", oddOrEven);
