@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
-    <title>JSA: arithmetic</title>
+    <title>JSA: log-even-nums</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">arithmetic</a>
+                    <a class="nav-link" href="../arithmetic/index.html">arithmetic</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../odd-or-even/index.html">odd-or-even</a>
@@ -32,7 +32,7 @@
                     <a class="nav-link" href="../log-nums/index.html">log-nums</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../log-even-nums/index.html">log-even-nums</a>
+                    <a class="nav-link" href="#">log-even-nums</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">countdown</a>
@@ -51,46 +51,16 @@
     </nav>
 
     <container>
-        <h1>arithmetic</h1>
-        <form>
-            <h4>add:</h4>
-            <label for="addNum1"></label>
-            <input type="number" id="addNum1" placeholder="first number">
-            +
-            <input type="number" id="addNum2" placeholder="second number">
-            = <span id="addAns"></span>
-        </br>
-            <button id="addBtn" type="button" class="btn btn-outline-primary">run function</button>
-        </form>
-        <form>
-            <h4>subtract:</h4>
-            <input type="number" id="subNum1" placeholder="first number">
-            -
-            <input type="number" id="subNum2" placeholder="second number">
-            = <span id="subAns"></span>
-        </br>
-            <button id="subBtn"type="button" class="btn btn-outline-primary">run function</button>
-        </form>
-        <form>
-            <h4>multiply:</h4>
-            <input type="number" id="multNum1" placeholder="first number">
-            *
-            <input type="number" id="multNum2" placeholder="second number">
-            = <span id="multAns"></span>
-        </br>
-            <button id="multBtn"type="button" class="btn btn-outline-primary">run function</button>
-        </form>
-        <form>
-            <h4>divide:</h4>
-            <input type="number" id="divNum1" placeholder="first number">
-            /
-            <input type="number" id="divNum2" placeholder="second number">
-            = <span id="divAns"></span>
-        </br>
-            <button id="divBtn" type="button" class="btn btn-outline-primary">run function</button>
-        </form>
+        <container>
+            <h1>log-nums</h1>
+            <form>
+                <h6>run the function below to print all even whole numbers from 0 to an entered number</h6>
+                <input type="number" id="num" placeholder="enter number here">
+                <div id="ans"></div>
+            </br>
+                <button id="btn" type="button" class="btn btn-outline-primary">run function</button>
+            </form>
     </container>
-
 
     <footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
