@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     function randoNum() {
         var num = Math.floor(Math.random() * 1000) +1;
-        ans.text(num);
+        ans.html("<br><hr>" + num);
     };
 
     btn.on("click", randoNum);
